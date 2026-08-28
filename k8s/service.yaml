@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: ai-devops-api
+  namespace: production
+  labels:
+    app: ai-devops-api
+spec:
+  type: ClusterIP
+  selector:
+    app: ai-devops-api
+  ports:
+  - port: 80
+    targetPort: 3000
+    protocol: TCP
+    name: http

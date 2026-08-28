@@ -1,0 +1,21 @@
+{
+  "name": "ai-devops-experiment-api",
+  "version": "1.0.0",
+  "description": "Simple Node.js API for the AI DevOps 30-Day Experiment",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "jest --coverage",
+    "audit": "npm audit --audit-level=moderate"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^7.0.0"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
