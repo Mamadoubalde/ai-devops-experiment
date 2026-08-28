@@ -32,3 +32,4 @@ configured in AWS/GitHub:
 - `github-actions-ecr-role` and `github-actions-eks-role` IAM roles (OIDC
   trust with this repo)
 - An EKS cluster named `prod-cluster` with a `production` namespace
+
